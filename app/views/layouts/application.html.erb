@@ -6,6 +6,48 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+  <meta name="viewport" content="width=devise-width, initial-scale=1.0">
+
+  <style>
+
+  @media only screen and (max-width: 500px) {
+    .hero-header {
+        font-size: 1.625em;
+    }
+
+    .main-text {
+        font-size: 1.625em;
+    }
+
+    .sub-text {
+        font-size: 1.375em;
+    }
+}
+
+
+
+    @media only screen and (max-width: 400px) {
+    .div-one {
+        width:100%;
+    }
+
+    .para-one {
+        width:100%;
+    }
+
+    .para-two {
+        width:100%;
+    }
+
+    .current-item {
+    display: none;
+    }   
+}
+
+
+
+  </style>
 </head>
 <body>
 
